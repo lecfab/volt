@@ -1,11 +1,11 @@
-# Relevant Vertex Orderings to List Triangles faster
+# Vertex Orderings to List Triangles faster
 Volt is a C++ program to quickly list triangles in a network or graph.
 The [associated paper](https://fabrice.lecuyer.me) presents the methods, the available orderings and algorithms, and the experimental results.
 
 ## Installation & compilation
-`$ git clone .../volt.git`
+`$ git clone https://github.com/lecfab/volt.git`
 
-`$ make` to optimise the executable for production
+`$ make`
 
 ## Running
 
@@ -36,8 +36,8 @@ or double edges (`a b`, `b a`), remove them with `$ ./undirect DATASET NEWDATASE
 
 
 -   `-a ALGO`: the following algorithms are available to list triangles:
-    -   `PM` (default): also called _L+n_, it has a complexity sum d+d-
-    -   `PP`: also called _S+n_, it has complexity sum d+². Note that the equivalent algorithm MM with complexity sum d-²
+    -   `PM` (default): also called _A+-_ or _L+n_, it has a complexity sum d+d-
+    -   `PP`: also called _A++_ or _S+n_, it has complexity sum d+². Note that the equivalent algorithm MM with complexity sum d-²
     will be applied instead of PP if it takes less time on a given ordered graph
 
 #### Options
