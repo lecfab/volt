@@ -1,6 +1,6 @@
 # Vertex Orderings to List Triangles faster
 Volt is a C++ program to quickly list triangles in a network or graph.
-The [associated paper](https://fabrice.lecuyer.me) presents the methods, the available orderings and algorithms, and the experimental results.
+The [associated paper](https://arxiv.org/abs/2203.04774) presents the methods, the available orderings and algorithms, and the experimental results.
 
 ## Installation & compilation
 `$ git clone https://github.com/lecfab/volt.git`
