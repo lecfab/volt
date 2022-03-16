@@ -5,6 +5,8 @@ The [associated paper](https://fabrice.lecuyer.me) presents the methods, the ava
 ## Installation & compilation
 `$ git clone https://github.com/lecfab/volt.git`
 
+`$ cd volt`
+
 `$ make`
 
 ## Running
