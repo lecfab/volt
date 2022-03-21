@@ -39,8 +39,8 @@ or double edges (`a b`, `b a`), remove them with `$ ./undirect DATASET NEWDATASE
 
 -   `-a ALGO`: the following algorithms are available to list triangles:
     -   `PM` (default): also called _A+-_ or _L+n_, it has a complexity sum d+d-
-    -   `PP`: also called _A++_ or _S+n_, it has complexity sum d+². Note that the equivalent algorithm MM with complexity sum d-²
-    will be applied instead of PP if it takes less time on a given ordered graph
+    -   `PP`: also called _A++_ or _S+n_, it has complexity sum d+². Note that the equivalent algorithm MM with complexity sum d-² will be applied instead of PP if it takes less time on a given ordered graph
+    -   `comparison`: run both _A+-_ and _A++_ in order to compare their running time
 
 #### Options
 -   `-t`: write triangles in standard output so that they can be saved in a FILE (`> FILE`) or piped to another PROGRAM (`| PROGRAM`)
