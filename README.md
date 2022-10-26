@@ -51,6 +51,7 @@ or double edges (`a b`, `b a`), remove them with `$ ./undirect DATASET NEWDATASE
 
 ## Contributors
 
-Fabrice Lécuyer (fabrice.lecuyer@lip6.fr)
+Copyright © 2022  Fabrice Lécuyer (fabrice.lecuyer@lip6.fr)
 
-2022
+This program is free software: you can redistribute it and/or modify it with the same open-source licence (or a later version).
+It is distributed in the hope that it will be useful, but without any warranty. See the [GNU General Public License](LICENCE) for more details.
